@@ -1,0 +1,47 @@
+/**
+* @aiala
+* Esttilos a aplicar en las fichas de #persona
+*/
+/*
+.tail {
+    min-width: 300px;
+    max-height: 500px;
+}
+*/
+
+.person-carrousel-page {
+    background-color: #ffffff;
+    color: black;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 26px;
+    color: #36403f;
+}
+
+.person-carrousel-page-unfocus {
+    background-color: rgb(255 255 255 / 40%);
+    color: transparent;
+    text-shadow: 0 0 3.8px rgba(0, 0, 0, 0.5);
+}
+
+.person-carrousel-page-focus {
+    background-color: #ffffff;
+    color: black;
+    transform: scale(1.06);
+    transition: transform 0.3s;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.person-carrousel-button i {
+    font-size: 28px;
+    color: #ffffff;
+    line-height: 0;
+}
+
+.person-carrousel-button i:hover {
+    color: #a9aab3;
+}
+
